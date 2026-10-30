@@ -1,0 +1,18 @@
+{
+  "task": "synthetic extraction benchmark",
+  "scope": "same 10 fictional records",
+  "model": "example-model",
+  "settings": "same settings",
+  "quality_criteria": "same manually reviewed fields",
+  "accounting_basis": "exclusive request totals; input includes cache and output includes reasoning",
+  "coverage_complete": true,
+  "non_overlapping": true,
+  "accounting_verified": true,
+  "task_complete": true,
+  "quality_passed": true,
+  "input_tokens": 10000,
+  "cached_input_tokens": 2000,
+  "output_tokens": 2000,
+  "reasoning_tokens": 500,
+  "total_tokens": 12000
+}
